@@ -1,0 +1,31 @@
+﻿# Python environments and caches
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets and local environment variables
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies and build output
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Model weights and datasets
+models/
+datasets/
+*.pt
+*.pth
+*.safetensors
+*.onnx
+
+# Local reports and temporary files
+reports/
+*.log
+.DS_Store
+.vscode/
+.idea/
